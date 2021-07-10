@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.table-heading {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+/*Styling of the table*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+
+td, tr {
+    border: 1px solid black;
+    padding: 10px;
+    transition: 1s;
+}
+
+th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/*alternate colors*/
+tr:nth-child(even){
+    background-color: rgb(175, 175, 175);
+}
+
+/*overflow property for the responsiveness*/
+.table-class {
+    overflow-x: auto;
+}
+
+/*Hovering effects*/
+tr:nth-child(even):hover {
+    background-color: rgb(143, 143, 143);
+}
+
+tr:nth-child(odd):hover {
+    background-color: rgb(230, 230, 230);
+}

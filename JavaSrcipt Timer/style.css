@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --font :'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #333;
+}
+
+/* styling for time header and time display */
+.time {
+    color: white;
+    font-size: 9vw;
+}
+
+.time-head {
+    font-family: var(--font);
+    color: white;
+}
+
+.timer-container {
+    transform: translateY(40%);
+}
+
+/* button styling*/
+.btns {
+    font-family: var(--font);
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    background-color: rgb(84, 120, 230);
+    margin: 10px;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+.btns:hover{
+    background-color: rgb(63, 98, 201);
+}
+
+.btns i {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
